@@ -10,12 +10,13 @@
             <div class=fortune> 
                 <h3 class=ddd> Welcome to iFortune! Fill out the form below to determine your future. </h3>
             <form action='/fortune_results' method='GET'>
-                What is your name?
+                <h3>What is your name?</h3>
                 <input type='text' name='firstname' placeholder="First and Last Name">
-                <br>
-                <br>
-                Birthday: <input type="date" name="bday"><br><br>
-                What Kind of car you desire?
+                <br><br>
+                
+                <h3>Birthday: <input type="date" name="bday"></h3><br>
+
+                <h3>What Kind of car you desire?</h3>
                 <select name="carlist" form="carform">
                 <option value="volvo">Tesla</option>
                 <option value="saab">Range Rover</option>
@@ -23,24 +24,25 @@
                 <option value="audi">Subaru</option>
                 </select>
                 <br>
-                <p>Please select your gender:</p>
+
+                <h3>Please select your gender:</h3>
                 <input type="radio" name="gender" value="male"> Male<br>
                 <input type="radio" name="gender" value="female"> Female<br>
                 <input type="radio" name="gender" value="other"> Other<br>  
 
-                <p>Please select your age:</p>
+                <h3>Please select your age:</h3>
                 <input type="radio" name="age" value="30"> 0 - 30<br>
                 <input type="radio" name="age" value="60"> 31 - 60<br>
                 <input type="radio" name="age" value="100"> 61 - 100<br>  
 
-                <h4>What kind of vehicle do you have?</h4>
+                <h3>What kind of vehicle do you have?</h3>
                 <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br><br>
                 <input type="checkbox" name="vehicle" value="Car"> I have a car<br><br>
                 <input type="checkbox" name="vehicle" value="Boat" checked> I have a boat<br><br>
                 <input type='submit' value='Submit!'>
             
-              </form>
-                 <h3>Thanks youyyyyy again<h3>
-             </div>
-    </body>
-</html>
+            </form>
+            <h3>Thank You!!<h3>
+            </div>
+         </body>
+    </html>
